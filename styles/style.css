@@ -1,0 +1,72 @@
+.fit-picture {
+    height: 20px;
+}
+.head-picture { height: 90px;}
+.footer-picture { height: 20px;}
+ul {
+    background:white;
+    border-radius :8px;
+    box-shadow :0px 0px 5px rgb(252, 183, 138);
+    padding: 0.5em 0.5em 0.5em 2em;
+  }
+ul li, ol li {
+    padding: 0;
+  }
+header {
+    text-align: center;
+    height: 90px;
+    color: rgb(218, 19, 118);
+    font-size: 30px;
+}
+a {text-decoration: none;
+}
+h1 {margin: 0px;}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    display: flex;
+    flex: 1;
+}
+nav {
+    margin: 0ex;
+    font-size: 20px;
+ width: 260px;
+ color: lightseagreen;
+}
+main {
+    margin: 10px;
+    flex: 1;
+color: mediumslateblue;}
+.mokuji-picture {
+    height: 30px;
+}
+.mokuji {
+    margin: 0px;
+    font-size: 30px;
+}
+.calendar-table {
+    border-collapse: collapse;
+}
+.calendar-table th, .calendar-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ff6680;
+  }
+  
+.calendar-table th {
+    background: pink;
+    font-weight: normal;
+  }
+footer {
+    font-size: 20px;
+    height: 100px;
+    color: rgb(218, 19, 118);
+}
+@media screen and (max-width:900px){
+    body {width: 100%}
+    div{flex-direction: column;}
+    nav, aside {width: 100%;}
+}
